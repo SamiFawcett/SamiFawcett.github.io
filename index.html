@@ -10,12 +10,12 @@
   <body>
     <div class="page-img">
       <img class="center-fit" id="home-img" src="images/stairs.jpg" alt="">
-      <div class="navigation-bar">
-        <ul id="navigaton-items">
-          <button class="nav-item button" type="button">Home</button>
-          <button class="nav-item button" type="button">About</button>
-          <button class="nav-item button" type="button">Blog</button>
-          <button class="nav-item button" type="button">Contact</button>
+      <div id="navigation-bar" class="navigation-bar">
+        <ul id="navigation-items" class="navigaton-items">
+          <a href="#home-content" class="nav-item button" >Home</a>
+          <a href="#about-content" class="nav-item button" >About</a>
+          <a href="#blog-content" class="nav-item button" >Blog</a>
+          <a href="#contact-content" class="nav-item button" >Contact</a>
       </div>
         <div id="content" class="content">
           <div id="home-content">
@@ -24,9 +24,37 @@
 ― Craig D. Lounsbrough</p>
           </div>
         </div>
+        <div id="about-content" class="about-content">
+          <h1 id="about-title" class="title">About</h1>
+          <p>A student at Rensselaer Polytechnic Instute studying Computer Science. I am interested in the biological aspect of computer science; the interface between man and machine.</p>
+        </div>
+        <div id="blog-content" class="blog-content">
+          <h1 id="blog-title" class="title">Blog</h1>
+          <p>May 10th 2019</p>
+          <p>I am at home working on a website for the ASC Technical Interview and it's going very well.</p>
+        </div>
+        <div id="contact-content" class="contact-content">
+          <h1 id="contact-title" class="title">Contact</h1>
+          <div class="container">
+            <form action="action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="First name">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Last name">
+              <label for="fname">Email</label>
+              <input type="text" id="em" name="email" placeholder="Email">
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="You can start writing now..." style="height:200px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+            </div>
+          <p>email: samifawcett.nyc@gmail.com</p>
+          <p> linkedin: <a style="color: white;" href="https://www.linkedin.com/in/sami-f-7770b2124/">https://www.linkedin.com/in/sami-f-7770b2124//p>
+        </div>
         <div class="footer">
-          <h3>footer</h3>
+          <h3>Copyright © 2019 Sami Fawcett. All rights reserved.</h3>
         </div>
     </div>
+    <script type="text/javascript" src="js/scroll_script.js"></script>
   </body>
 </html>
