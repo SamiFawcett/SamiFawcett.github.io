@@ -13,6 +13,16 @@
   margin: 0;
   padding: 0;
 }
+.button{
+  background: none;
+  border: none;
+  color:white;
+  text-align: center;
+  display: inline-block;
+  font-size: 32px;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+}
 .navigation-bar{
   position: absolute;
   padding-top: 30px;
